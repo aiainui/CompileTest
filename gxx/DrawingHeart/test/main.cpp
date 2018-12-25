@@ -7,10 +7,11 @@
 
 #include <iostream>
 #include "../include/Drawing.h"
+using namespace std;
 
 int main(int argc, char **argv)
 {
-    std::cout << "I am drawing a heart..." << std::endl;
+    cout << "I am drawing a heart..." << endl;
     Draw();
     return 0;
 }

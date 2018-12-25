@@ -28,7 +28,6 @@
 
 #define STRING_ONE "Dear xueersi"
 #define STRING_TWO "I love you"
-
 using namespace std;
 
 double pown(double x, int n)
