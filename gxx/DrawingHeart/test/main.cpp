@@ -6,7 +6,7 @@
  ************************************************************************/
 
 #include <iostream>
-#include "Drawing.h"
+#include "../include/Drawing.h"
 
 using namespace std;
 

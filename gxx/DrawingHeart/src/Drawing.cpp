@@ -5,10 +5,10 @@
 	> Created Time: Mon 24 Dec 2018 09:31:22 PM CST
  ************************************************************************/
 
-//#include <stdio.h>
+#include <iostream>
 #include <malloc.h>
 #include <string.h>
-#include "Drawing.h" 
+#include "../include/Drawing.h" 
 
 #define CHAR_STAR '*'
 #define CHAR_SPACE ' '
@@ -28,6 +28,8 @@
 
 #define STRING_ONE "Dear xueersi"
 #define STRING_TWO "I love you"
+
+using namespace std;
 
 double pown(double x, int n)
 {
