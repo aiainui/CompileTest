@@ -26,7 +26,7 @@
 #define OFFSET_HEIGH 0.5
 #define OFFSET_WIDTH 1.0
 
-#define STRING_ONE "Dear LISIs"
+#define STRING_ONE "Dear xueersi"
 #define STRING_TWO "I love you"
 
 double pown(double x, int n)

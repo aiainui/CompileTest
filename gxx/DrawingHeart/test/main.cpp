@@ -12,7 +12,7 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    std::cout << "This is my heart..." << std::endl;
+    std::cout << "I am drawing a heart..." << std::endl;
     Draw();
     return 0;
 }
