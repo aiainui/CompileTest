@@ -8,8 +8,6 @@
 #include <iostream>
 #include "../include/Drawing.h"
 
-using namespace std;
-
 int main(int argc, char **argv)
 {
     std::cout << "I am drawing a heart..." << std::endl;
