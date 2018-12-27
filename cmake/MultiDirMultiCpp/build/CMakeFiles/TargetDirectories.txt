@@ -1,8 +1,0 @@
-/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/CMakeFiles/rebuild_cache.dir
-/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/CMakeFiles/edit_cache.dir
-/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/src/CMakeFiles/edit_cache.dir
-/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/src/CMakeFiles/rebuild_cache.dir
-/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/src/CMakeFiles/Drawing.dir
-/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/test/CMakeFiles/rebuild_cache.dir
-/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/test/CMakeFiles/edit_cache.dir
-/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/test/CMakeFiles/main.dir
