@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/liblibDrawing.a  CMakeFiles/libDrawing.dir/Drawing.cpp.o CMakeFiles/libDrawing.dir/ProgressBar.cpp.o
+/usr/bin/ranlib ../lib/liblibDrawing.a

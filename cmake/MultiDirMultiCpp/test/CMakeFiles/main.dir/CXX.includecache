@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/include/Drawing.h
+
+/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/test/main.cpp
+iostream
+-
+../include/Drawing.h
+/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/include/Drawing.h
+
