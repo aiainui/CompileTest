@@ -11,5 +11,4 @@
 double pown(double x, int n);
 double f(double ratioA, double ratioB, double x, double y);
 void Draw();
-
 #endif
