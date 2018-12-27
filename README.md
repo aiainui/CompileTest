@@ -28,8 +28,8 @@ g++ dynamic_a.cpp dynamic_b.cpp dynamic_c.cpp -fPIC -shared -o libdynamic.so
 g++ main.cpp -L. -ldynamic -o main
 ```
 
-#### 以上链接方式在运行时，需要在 .bashrc 中指定库目录，否则会找不到库
-#### 如果不想在.bashrc 中指定库目录，链接是请加上 -Wl,rpath=$lib_path，例 动态库链接可写为：
+> 以上链接方式在运行时，需要在 .bashrc 中指定库目录，否则会找不到库
+> 如果不想在.bashrc 中指定库目录，链接时请加上 -Wl,rpath=$lib_path，例-动态链接可改写为：
 
 ```
 动态库封装命令：
