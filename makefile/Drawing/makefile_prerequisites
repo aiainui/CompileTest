@@ -1,0 +1,11 @@
+main:A.o B.o C.o
+	g++ -o main A.o B.o C.o
+A.o:A.cpp
+	g++ -o A.o -c A.cpp
+B.o:B.cpp
+	g++ -o B.o -c B.cpp
+C.o:C.cpp
+	g++ -o C.o -c C.cpp
+
+clean:
+	echo "clean"
