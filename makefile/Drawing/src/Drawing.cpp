@@ -8,7 +8,7 @@
 #include <iostream>
 #include <malloc.h>
 #include <string.h>
-#include "../include/Drawing.h" 
+#include "Drawing.h" 
 
 #define CHAR_STAR '*'
 #define CHAR_SPACE ' '

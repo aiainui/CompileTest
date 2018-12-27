@@ -1,10 +1,9 @@
-LIBS =
-CPPFLAGS = -Wall -Winline -pipe -ffast-math -D_LINUX_64_ 
+LIBS = -L./lib
+INCLUDEDIR = -I./include
 
-LDFLAGS = -I. -I./include/  -L./lib/
-LDFLAGS+= -Wl,-rpath=./lib/
+LDFLAGS = -Wl,-rpath=./lib/
 
-GCC = g++ -std=c++11  -O2
+GCC = g++
 
 OBJDIR = src
 TESTDIR = test
@@ -24,10 +23,10 @@ all: $(TARGET1)
 
 $(TARGET1) : $(OBJ1)
 	mkdir -p ./bin
-	$(GCC) -o $@ $^ $(LIBS) $(LDFLAGS)
+	$(GCC) -o $@ $^ $(LIBS) $(INCLUDEDIR) $(LDFLAGS)
 
 $(OBJDIR)/%.o : %.cpp
-	$(GCC) $(CPPFLAGS) -c $< -o $@ $(LDFLAGS)
+	$(GCC) -c $< -o $@ $(INCLUDEDIR)
 
 clean:
 	rm -rf ./bin

@@ -40,4 +40,3 @@ $(LIB1_1) : $(OBJDIR)/Drawing.cpp
 clean:
 	rm -rf ./bin
 	rm -rf ./lib
-	rm $(OBJDIR)/*.o

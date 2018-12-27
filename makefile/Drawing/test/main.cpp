@@ -6,7 +6,7 @@
  ************************************************************************/
 
 #include <iostream>
-#include "../include/Drawing.h"
+#include "Drawing.h"
 using namespace std;
 
 int main(int argc, char **argv)
