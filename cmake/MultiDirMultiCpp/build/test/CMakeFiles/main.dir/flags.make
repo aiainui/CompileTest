@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/include -I/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/src 
+CXX_INCLUDES = -I/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/include 
 

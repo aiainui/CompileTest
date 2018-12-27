@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp
+CMAKE_BINARY_DIR = /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(CMAKE_COMMAND) -E cmake_progress_start /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/CMakeFiles /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/test/CMakeFiles/progress.marks
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/CMakeFiles /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	$(MAKE) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -97,60 +97,44 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-test/CMakeFiles/main.dir/rule:
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/main.dir/rule
-.PHONY : test/CMakeFiles/main.dir/rule
+#=============================================================================
+# Target rules for targets named Drawing
 
-# Convenience name for target.
-main: test/CMakeFiles/main.dir/rule
+# Build rule for target.
+Drawing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Drawing
+.PHONY : Drawing
 
+# fast build rule for target.
+Drawing/fast:
+	$(MAKE) -f src/CMakeFiles/Drawing.dir/build.make src/CMakeFiles/Drawing.dir/build
+.PHONY : Drawing/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
 .PHONY : main
 
 # fast build rule for target.
 main/fast:
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(MAKE) -f test/CMakeFiles/main.dir/build.make test/CMakeFiles/main.dir/build
+	$(MAKE) -f test/CMakeFiles/main.dir/build.make test/CMakeFiles/main.dir/build
 .PHONY : main/fast
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(MAKE) -f test/CMakeFiles/main.dir/build.make test/CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(MAKE) -f test/CMakeFiles/main.dir/build.make test/CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(MAKE) -f test/CMakeFiles/main.dir/build.make test/CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -160,10 +144,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... Drawing"
 	@echo "... main"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 
@@ -175,6 +157,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dengyulong/CompileTest/cmake/MultiDirMultiCpp && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
