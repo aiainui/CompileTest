@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/main.dir/main.cpp.o  -o ../bin/main -Wl,-rpath,/home/dengyulong/CompileTest/cmake/MultiDirMultiCpp/build/lib ../lib/libDrawing.so 
