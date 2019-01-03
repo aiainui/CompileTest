@@ -1,3 +1,0 @@
-/home/dengyulong/CompileTest_bak/cmake/MultiDirMultiCpp1/build/CMakeFiles/rebuild_cache.dir
-/home/dengyulong/CompileTest_bak/cmake/MultiDirMultiCpp1/build/CMakeFiles/edit_cache.dir
-/home/dengyulong/CompileTest_bak/cmake/MultiDirMultiCpp1/build/CMakeFiles/main.dir
