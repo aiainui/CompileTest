@@ -1,5 +1,5 @@
 ---
-### CompileTest - c/c++编译学习
+### 1. CompileTest - c/c++编译学习
 
 
 #### gxx 下为g++编译样例
@@ -8,8 +8,9 @@
 
 ---
 
+### 2.参考资料
 
-#### 编译官方参考资料
+#### 官方参考资料
 #### gcc 官网：https://gcc.gnu.org/onlinedocs/
 #### makefile 官网：http://www.gnu.org/software/make/
 #### cmake 官网：https://cmake.org/cmake-tutorial/
