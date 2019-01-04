@@ -15,6 +15,7 @@
 #### cmake 官网：https://cmake.org/cmake-tutorial/
 
 #### 其他参考资料
+#### gcc编译图解：https://www.zhihu.com/question/43538570
 #### makefile教程: https://blog.csdn.net/weixin_38391755/article/details/80380786
 #### makefile常用命令: https://www.cnblogs.com/wang_yb/p/3990952.html
 #### gcc常用命令: http://www.runoob.com/w3cnote/gcc-parameter-detail.html
