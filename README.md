@@ -1,17 +1,19 @@
-# CompileTest
-c/c++编译学习
+# CompileTest - c/c++编译学习
+
 
 #### gxx 下为g++编译样例
-#### makefile 下为g++编译样例
+#### makefile 下为makefile编译样例
 #### cmake 下为cmake编译样例
 
 
-### 编译官方参考资料
+
+
+#### 编译官方参考资料
 #### gcc 官网：https://gcc.gnu.org/onlinedocs/
 #### makefile 官网：http://www.gnu.org/software/make/
 #### cmake 官网：https://cmake.org/cmake-tutorial/
 
-### 其他参考资料
+#### 其他参考资料
 #### 画图： https://blog.csdn.net/flushhip/article/details/53688622
 #### makefile教程: https://blog.csdn.net/weixin_38391755/article/details/80380786
 #### makefile常用命令: https://www.cnblogs.com/wang_yb/p/3990952.html
