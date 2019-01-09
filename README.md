@@ -7,8 +7,10 @@
 #### cmake 下为cmake编译样例
 
 ---
+### 2. 常见编译方式介绍
+![《深度学习500问》微信交流群二维码](./doc/compile.png) 
 
-### 2.参考资料
+### 3.参考资料
 
 #### 官方参考资料
 #### gcc 官网：https://gcc.gnu.org/onlinedocs/
