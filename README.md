@@ -8,7 +8,30 @@
 
 ---
 ### 2. 常见编译方式介绍
-![《深度学习500问》微信交流群二维码](./doc/compile.png) 
+
+
+* 常见问题总结
+**问题：运行时，动态库找不到的解决办法有哪些？**
+```
+
+
+#运行时动态库路径设置
+https://www.cnblogs.com/homejim/p/8004883.html
+#1 动态库放在如下路径
+/lib或/lib64
+/usr/lib或/usr/lib64
+#2 设置链接路径
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:《your_lib_path》
+#3 修改配置文件/etc/ld.so.conf
+/etc/ld.so.cache中缓存了动态库路径
+#4 链接时加如下命令
+-Wl,-rpath=《my_thirdparty_lib_path》
+#5 软连接
+#6 copy库到当前目录
+```
+
+*进一步学习*
+![](./doc/compile.png) 
 
 ### 3.参考资料
 
