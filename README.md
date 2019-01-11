@@ -7,7 +7,7 @@
 #### cmake 下为cmake编译样例
 
 ---
-### 2. 编译简单介绍
+
 
 * 常见问题总结
 
@@ -27,8 +27,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:《your_lib_path》
 #5 软连接
 #6 copy库到当前目录
 ```
-
-*进一步学习*
+### 2. 编译简单介绍 *进一步学习*
 ![](./doc/compile.png) 
 
 ### 3.参考资料
