@@ -28,7 +28,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:《your_lib_path》
 #6 copy库到当前目录
 ```
 ### 2. 编译简单介绍 *进一步学习*
-![](./doc/compile.png) 
+# ![](./doc/compile.png) 
 
 ### 3.参考资料
 
